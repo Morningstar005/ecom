@@ -52,12 +52,12 @@ const Navbar = ({ setData, cart }) => {
           </Link>
          
 
-          {/* <form onSubmit={handleSubmit} className="search-bar">
+          <form onSubmit={handleSubmit} className="search-bar">
             <input 
             type="text"
             value={searchTerm}
             onChange={itempass} />
-          </form> */}
+          </form>
 
           <Link to={"/cart"} className="cart">
             <button type="button" className="btn btn-primary position-relative">
